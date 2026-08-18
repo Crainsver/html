@@ -1,0 +1,10 @@
+.cabecera{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(255, 157, 0);
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
