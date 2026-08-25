@@ -25,3 +25,62 @@ img{
 
 
 }
+
+body{
+
+font-family:  Arial, Helvetica, sans-serif;
+background: rgb(137, 226, 152);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+
+
+}
+
+
+.container{
+    background: white ;
+    padding: 30px;
+    border-radius: 12px ;
+    width: 400px;
+    box-shadow: 0 4px 10px rgba(255, 248, 248, 0.781);
+
+
+}
+
+h1{
+    text-align: center;
+}
+
+.formulario{
+    display: flex;
+    gap: 10px;
+}
+
+input{
+    flex: 1;
+    padding: 10px;
+
+}
+
+
+button{
+    padding: 10px 15px;
+    cursor: pointer;
+
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(148, 202, 148);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.done{
+    text-decoration: line-through;
+    color: gray ;
+}
