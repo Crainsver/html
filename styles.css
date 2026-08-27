@@ -1,3 +1,36 @@
+body{
+font-family: Arial;
+text-align: center;
+background: #3b2e26d5;
+
+}
+
+.galeria{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.thumb{
+width: 200px;
+cursor: pointer;
+border-radius: 10px;
+transition: 0.3s;
+}
+
+.thumb:hover{
+transform: scale(1.5);
+
+
+}
+
+.preview img{
+width: 600px;
+border-radius: 12px;
+
+}
+
 .cabecera{
     width: 200px;
     height: 100px;
@@ -26,7 +59,7 @@ img{
 
 }
 
-body{
+/*body{
 
 font-family:  Arial, Helvetica, sans-serif;
 background: rgb(137, 226, 152);
@@ -36,7 +69,7 @@ align-items: center;
 height: 100vh;
 
 
-}
+}*/
 
 
 .container{
