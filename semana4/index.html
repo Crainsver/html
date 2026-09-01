@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Agregar Producto</h1>
+
+        <form id="formProducto">
+            <div class="campo">
+                <label for="codigo">Código</label>
+                <input
+                    type="text"
+                    id="codigo"
+                    name="codigo"
+                    placeholder="Ingrese un codigo">
+                    <span id="errorCodigo" class="error"></span>
+            </div>
+            <div class="campo">
+                <label for="nombre">Nombre</label>
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="Ingrese nombre">
+                <span id="errorNombre" class="error"></span>
+            </div>
+            <div class="campo">
+                <labe for="categoria">Catergoria</labe>
+                <select id="categoria" name="categoria">
+                    <option value="">Seleccione una categoria</option>
+                    <option value="Computación">Computación</option>
+                    <option value="Electrónica">Electrónica</option>
+                    <option value="Accesorios">Accesorios</option>
+                </select>
+                <span id="errorCategoria" class="error"></span>
+            </div>
+            <button type="submit">
+                Agregar producto
+            </button>
+
+        </form>
+        <div id="mensaje" class="exito"></div>
+        
+    </div>
+    
+</body>
+</html>

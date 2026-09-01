@@ -3,50 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <link reL="stylesheet" href="styles.css">
-
-
-
+    <title>Catálogo Interactivo</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Galeria Interactiva</h1>
-    <div class="galeria">
-        <img src="https://elcomercio.pe/resizer/v2/VJJ32ZPCNFGKXOFYABRJX4DHMU.jpg?auth=20de1a55082472183c2f08b72f8cdb0688e62287c6416d6374a3e943a7a58189&width=980&height=551&quality=75&smart=true" class="thumb">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe7GGPOi6QGfIaIJcTR0rlIfB7b2YzzSIsKMPAluYwYX-ZxU4H0ROlC5OG&s=10" class="thumb">
-        <img src="https://static.bandainamcoent.eu/high/my-hero-academia/my-hero-alls-justice/00-page-product/MHAJ-header-mobile.jpg" class="thumb">
-        <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/RBTCZGDQY5CTBGK5M3Y3SVTBJI.jpeg" class="thumb">
-        <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/10/Tokyo-Ghoul-PR-Poster.jpg?w=1600&h=900&fit=crop" class="thumb">
-        
 
+    <h1>Catálogo de Mangas</h1>
 
-    </div>
-
-    <div class="preview">
-        <img id = "mainImage" src ="https://picsum.photos/id/1015/600/400">
-        <div>   
-
+    <div class="catalogo-layout">
+        <!-- Columna Izquierda: Galería tipo catálogo -->
+        <div class="columna-izquierda">
+            <h2>Galería de Productos</h2>
+            <div class="galeria">
+                <img src="https://elcomercio.pe/resizer/v2/VJJ32ZPCNFGKXOFYABRJX4DHMU.jpg?auth=20de1a55082472183c2f08b72f8cdb0688e62287c6416d6374a3e943a7a58189&width=980&height=551&quality=75&smart=true" 
+                     class="thumb" 
+                     data-description="Shingeki No Kyojin: $17.000">
+                     
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe7GGPOi6QGfIaIJcTR0rlIfB7b2YzzSIsKMPAluYwYX-ZxU4H0ROlC5OG&s=10" 
+                     class="thumb" 
+                     data-description="Hunter x Hunter: $30.000">
+                     
+                <img src="https://static.bandainamcoent.eu/high/my-hero-academia/my-hero-alls-justice/00-page-product/MHAJ-header-mobile.jpg" 
+                     class="thumb" 
+                     data-description="My Hero Academia: $21.000">
+                     
+                <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/RBTCZGDQY5CTBGK5M3Y3SVTBJI.jpeg" 
+                     class="thumb" 
+                     data-description="Jujutsu Kaisen: $16.000">
+                     
+                <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/10/Tokyo-Ghoul-PR-Poster.jpg?w=1600&h=900&fit=crop" 
+                     class="thumb" 
+                     data-description="Tokyo Ghoul: $15.000">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMp3arqtXu9qxqKW2Pfen1iN-92LOEPafK3-PTqvgWHkg3BOA-TnSRqja6&s=10"
+                     class="thumb"
+                     data-description="Your name: $15.000">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNUdAvOu8pJ1c8LYUXjKX6KE7xDUyfdMi_BWOEMhZX6GLynEciOPv1DJlK&s=10"
+                     class="thumb"
+                     data-description="Konosuba: $20.000">
+                <img src="https://images.mubicdn.net/images/film/362915/cache-833219-1745500685/image-w1280.jpg?size=800x"
+                     class="thumb"
+                     data-description="Hajime No Ippo: $20.000">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQadG7DO0LEOKXIkG0Q0uzRJEJlN27o9MAucoLLWz8CJ78VLZMP7p5R62g&s=10"
+                     class="thumb"
+                     data-description="Orange: $20.000">
+                <img src="https://ramenparados.com/wp-content/uploads/2015/10/ore-monogatari-1000x600.jpg?ver=1758822673"
+                     class="thumb"
+                     data-description="Ore nomogatari: $20.000">
+                <img src="https://i0.wp.com/elpalomitron.com/wp-content/uploads/2019/02/segunda-temporada-de-Miss-Kobayashi%E2%80%99s-Dragon-Maid-destacada-El-Palomitr%C3%B3n.jpg?resize=1000%2C600&ssl=1"
+                     class="thumb"
+                     data-description="Dragon Maid: $20.000">
+                <img src="https://storage.ghost.io/c/2b/7f/2b7f69fc-a243-4d2f-ae8e-db8312c6653a/content/images/size/w1200/2025/10/Demon-Slayer-en-421-c.png"
+                     class="thumb"
+                     data-description="Demon Slayer: $20.000">
+                <img src="https://img.anmosugoi.com/file/media-sugoi/2019/04/kC8DGHKa-Darling-in-the-Franxx-1.jpg"
+                     class="thumb"
+                     data-description="Darling in the franxx: $20.000">
+                <img src="https://static.wikia.nocookie.net/naruto/images/3/39/Site-community-image/revision/latest/scale-to-width-down/1200?cb=20221002031015&path-prefix=es"
+                     class="thumb"
+                     data-description="Naruto: $20.000">
+                <img src="https://img.anmosugoi.com/file/media-sugoi/2025/07/Black-Clover-Temporada-2-min.webp"
+                     class="thumb"
+                     data-description="Black Clover: $20.000">
+            </div>
         </div>
 
-    </div>
-
-    <script src="script.js"></script>
-
-    <div class="container">
-                <h1>Carrito de compra</h1>
-
+        <!-- Columna derecha: Carrito-->
+        <div class="columna-derecha">
+            <!-- Carrito de compras -->
+            <div class="container">
+                <h3>Carrito de compra</h3>
                 <div class="formulario">
                     <input type="text" id="taskInput" placeholder="Agrega un producto">
                     <button id="addBtn">Agregar</button>
- 
                 </div>
-
                 <ul id="taskList"></ul>
+            </div>
 
+            <!-- Vista Previa de la imagen seleccionada y su descripción -->
+            <div class="preview">
+                <h3>Anime seleccionado</h3>
+                <img id="mainImage" src="https://picsum.photos/id/1015/600/400" alt="Anime Seleccionado">
+                <div id="mainDescription" class="descripcion">
+                    Selecciona un anime de la galería para ver su descripción.
+                </div>
+            </div>
         </div>
-    
-</body>
-    
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
